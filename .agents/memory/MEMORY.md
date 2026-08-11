@@ -1,0 +1,7 @@
+- [TNC CRM API pattern](tnc-crm-api.md) — POST /common/ proxy, table names, CORS workaround, no DB needed
+- [Zod v4 + react-hook-form](zod-hookform-compat.md) — use `zod` not `zod/v4` for zodResolver compatibility
+- [TNC CRM table map](tnc-crm-tables.md) — t_ch=sessions/videos (59k), t_ex=exams (6750), t_qu=questions (157k), t_se is empty
+- [Vite + workspace hooks defensive pattern](vite-workspace-hooks.md) — useQuery can return unexpected non-array value; always use Array.isArray() not ?? []
+- [Firebase video limitation](firebase-video.md) — _fs_id is NOT Firebase Storage; it's a fs-stream.net CDN ID played via videoplay.tncnursing.in iframe (no X-Frame-Options)
+- [GitHub push pattern](github-push.md) — gitPush() callback fails; use: git remote set-url origin "https://x-access-token:${github_token}@github.com/..." then git push
+- [Telegram bot architecture](telegram-bot-arch.md) — bot in api-server/src/lib/bot.ts; bot_users table in DB; set RENDER_URL env to auto-configure webhook on startup

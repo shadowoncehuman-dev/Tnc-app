@@ -1,0 +1,6 @@
+{
+  "name": "TNC Nursing",
+  "description": "Mobile learning platform for Indian nursing competitive exams (NORCET, AIIMS, ESIC, RRB). Video lectures, PDF notes, mock exams, and leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
