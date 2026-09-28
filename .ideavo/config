@@ -51,6 +51,7 @@
   "envPaths": [
     { "name": "default", "path": ".env" },
     { "name": "artifacts/tnc-web", "path": "./artifacts/tnc-web/.env" },
-    { "name": "artifacts/api-server", "path": "./artifacts/api-server/.env" }
+    { "name": "artifacts/api-server", "path": "./artifacts/api-server/.env" },
+    { "name": "mobile-app", "path": "./mobile-app/.env" }
   ]
 }
